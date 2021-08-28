@@ -10,16 +10,9 @@ Blog
 {% endblock     %}
 
 {% block content %}
-<header id="main-navigation">
-	<h1><a href="">Miguel's Blog</a></h1>
-	<nav>
-		<a href="">All Posts</a>
-	</nav>
-</header>
-
 <section id="welcome">
 	<header>
-		<img src="" alt="Miguel - The Author Of This Blog" />
+		<img src="{% static 'blog/images/miguelnietoa.jpg' %}" alt="Miguel - The Author Of This Blog" />
 		<h2>MIGUEL'S BLOG</h2>
 	</header>
 	<p>Hi, I am Miguel ad I love to blog about tech, science and the world!</p>
@@ -32,7 +25,7 @@ Blog
 		<li>
 			<article class="post">
 				<a href="">
-					<img src="" alt="Mountain Hiking" />
+					<img src="{% static 'blog/images/mountains.jpg' %}" alt="Mountain Hiking" />
 					<div class="post__content">
 						<h3>Mountain Hiking</h3>
 						<p>
